@@ -12,7 +12,7 @@ import java.util.List;
 
 @RestController
 @AllArgsConstructor
-@CrossOrigin("*")
+@CrossOrigin("http://192.168.40.124:30080")
 public class BankAccountRestAPI {
     private BankAccountService bankAccountService;
 
